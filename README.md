@@ -9,7 +9,7 @@ _____
 
 ## Comment Notation
 
-### Comments in JSON 'Objects' in Ashiva
+### Comments in JSON '`Object Keys`' in Ashiva
 
 ```
 {
@@ -21,7 +21,7 @@ _____
 Any `key-value` pair where the `key` matches the regular expression `^\/{2}` will be regarded as comments.
 
 
-### Comments in JSON 'Arrays' in Ashiva
+### Comments in JSON '`Array Values`' in Ashiva
 
 ```
 [
@@ -34,7 +34,7 @@ Any `key-value` pair where the `key` matches the regular expression `^\/{2}` wil
 Any `array value` matching the regular expression `^\/{2}` will be regarded as comments.
 
 
-### Comments in JSON 'Strings' in Ashiva
+### Comments in JSON '`String Values`' in Ashiva
 
 ```
 "//01 Comment: Developer notes here",
@@ -45,7 +45,7 @@ Any `array value` matching the regular expression `^\/{2}` will be regarded as c
 Any `string` matching the regular expression `^\/{2}` will be regarded as a comment.
 
 
-### Comments in JSON 'Numbers', 'Booleans' and '`null`' in Ashiva
+### Comments in JSON '`Number Values`', '`Boolean Values`' and '`Null Values`' in Ashiva
 
 '`Number`', '`Boolean`' and '`null`' values may not be commented.
 
