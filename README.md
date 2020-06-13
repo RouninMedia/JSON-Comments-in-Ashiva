@@ -1,5 +1,5 @@
 # JSON Comments in Ashiva
-Ashiva regards serialised `object keys`, `array values` and `strings` as comments whenever they are prefixed with `//`.
+Ashiva regards serialised `object keys`, `array values` and `strings` as comments **whenever they are prefixed with `//`.**
 
 `//`-prefixed `object keys`, `array values` and `strings` may be used in standard JSON, without rendering the JSON invalid.
 
@@ -51,11 +51,13 @@ Instead, they may be preceded by a `//`-prefixed '`String`' which is regarded as
 
 ______
 
-##  Types of JSON Comment in Ashiva
+##  Categorising JSON Comments in Ashiva using alpha=numeric labels
 
-JSON Comments in Ashiva may have _numbers_ and / or _names_.
+The sole requirement to indicate a JSON Comment in Ashiva is a `//`-prefix.
 
-**See:**
+This means JSON Comments in Ashiva may use _alpha-numeric labels_ rather than simply _numeric labels_.
+
+**Compare:**
 
 ```
 {
@@ -70,7 +72,7 @@ JSON Comments in Ashiva may have _numbers_ and / or _names_.
 "//02 Comment: Developer notes here"
 ```
 
-**versus:**
+**with:**
 
 ```
 {
