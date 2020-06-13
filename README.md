@@ -31,7 +31,7 @@ Any `key-value` pair where the `key` matches the regular expression `^\/{2}` wil
 [
   "//01 Comment: Developer notes here",
   "//02 Comment: More developer notes here",
-  "Value"
+  "Serialised Array Value"
 ]
 ```
 
@@ -43,7 +43,7 @@ Any `array value` matching the regular expression `^\/{2}` will be regarded as c
 ```
 "//01 Comment: Developer notes here",
 "//02 Comment: More developer notes here",
-"Value"
+"Serialised String Value"
 ```
 
 Any `string` matching the regular expression `^\/{2}` will be regarded as a comment.
