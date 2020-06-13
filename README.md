@@ -47,7 +47,7 @@ Any `string` matching the regular expression `^\/{2}` will be regarded as a comm
 
 ### Comments in JSON 'Numbers', 'Booleans' and '`null`' in Ashiva
 
-'Number', 'Boolean' and '`null`' values may not be commented.
+'`Number`', '`Boolean`' and '`null`' values may not be commented.
 
 But they may be preceded by a `//`-prefixed '`String`' which is regarded as a comment.
 
