@@ -3,7 +3,7 @@ Alhough the JSON data-exchange format does not allow for comments, in certain co
 
 `//`-prefixed `object keys`, `array values` and `strings` may be used in standard JSON, without rendering that JSON invalid.
 
-Ashiva regards all `//`-prefixed `object keys`, `array values` and `strings` as comments.
+Ashiva regards all `//`-prefixed `object keys`, `array values` and `strings` as comments within the JSON.
 
 _____
 
