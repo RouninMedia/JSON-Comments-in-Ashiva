@@ -1,5 +1,11 @@
 # JSON Comments in Ashiva
-Ashiva regards serialised `object keys`, `array values` and `strings` as comments, **whenever they are prefixed with** `//`.
+Ashiva regards serialised
+
+ - `object keys`
+ - `array values`
+ - `strings`
+ 
+ as comments, **whenever they are prefixed with** `//`.
 
 `//`-prefixed `object keys`, `array values` and `strings` may be used in standard JSON, without rendering the JSON invalid.
 
