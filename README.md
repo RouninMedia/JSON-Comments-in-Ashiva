@@ -1,5 +1,7 @@
 # JSON Comments in Ashiva
-Ashiva allows for comments to be used in standard JSON, without rendering the JSON invalid.
+Ashiva regards serialised `object keys`, `array values` and `strings` as comments whenever they are prefixed with `//`.
+
+`//`-prefixed `object keys`, `array values` and `strings` may be used in standard JSON, without rendering the JSON invalid.
 
 _____
 
@@ -14,7 +16,7 @@ _____
   "Name":  "Value"
 }
 ```
-Any `key-value` pair where the `key` matches the regular expression `^\/{2}` will be ignored.
+Any `key-value` pair where the `key` matches the regular expression `^\/{2}` will be regarded as comments.
 
 
 ### Comments in JSON 'Arrays' in Ashiva
@@ -27,7 +29,7 @@ Any `key-value` pair where the `key` matches the regular expression `^\/{2}` wil
 ]
 ```
 
-Any `array value` matching the regular expression `^\/{2}` will be ignored.
+Any `array value` matching the regular expression `^\/{2}` will be regarded as comments.
 
 
 ### Comments in JSON 'Strings' in Ashiva
@@ -38,14 +40,14 @@ Any `array value` matching the regular expression `^\/{2}` will be ignored.
 "Value"
 ```
 
-Any `string` matching the regular expression `^\/{2}` will be ignored.
+Any `string` matching the regular expression `^\/{2}` will be regarded as a comment.
 
 
 ### Comments in JSON 'Numbers', 'Booleans' and '`null`' in Ashiva
 
 'Number', 'Boolean' and '`null`' values may not be commented.
 
-Instead, they may be preceded by a 'String' containing a comment.
+Instead, they may be preceded by a `//`-prefixed '`String`' which is regarded as a comment.
 
 ______
 
@@ -64,7 +66,8 @@ JSON Comments in Ashiva may have _numbers_ and / or _names_.
   "//01 Comment: Developer notes here"
 ],
 
-"//01 Comment: Developer notes here"
+"//01 Comment: Developer notes here",
+"//02 Comment: Developer notes here"
 ```
 
 **versus:**
