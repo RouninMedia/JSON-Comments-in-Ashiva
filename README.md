@@ -3,7 +3,7 @@
 
 Not really entirely happy with any of this...
 
-Basically I want the comments to be _completely gone_ when the JSON files are being used and _completely there again_ when the files are being read.
+Basically I want the comments to be **_completely gone_** when the JSON files are being used and **_completely there again_** when the files are being read.
 
 This means I need:
 
