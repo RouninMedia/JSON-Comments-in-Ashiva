@@ -7,6 +7,17 @@ Ashiva regards all `//`-prefixed `object keys`, `array values` and `strings` as 
 
 _____
 
+## Ashiva JSON Files which may employ Comments
+
+- `ashivaModuleManifest`
+- `ashivaCodesheet`
+- `ashivaModuleLogic`
+- `ashivaServersheet`
+- `ashivaPageManifest`
+- `ashivaGlobalManifest`
+
+_____
+
 ## Comment Notation
 
 ### Comments in JSON '`Object Keys`' in Ashiva
