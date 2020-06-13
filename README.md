@@ -64,8 +64,20 @@ JSON Comments in Ashiva may have _numbers_ and / or _names_.
   "//01 Comment: Developer notes here"
 ],
 
-
 "//01 Comment: Developer notes here"
 ```
 
 **versus:**
+
+```
+{
+  "//Explanation Comment" : "Developer notes here"
+},
+
+[
+  "//Context Comment: Developer notes here"
+],
+
+"//ActionItem01 Comment: Developer notes here",
+"//ActionItem02 Comment: Developer notes here"
+```
