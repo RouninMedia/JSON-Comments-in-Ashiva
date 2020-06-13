@@ -7,8 +7,8 @@ Basically I want the comments to be _completely gone_ when the JSON files are be
 
 This means I need:
 
- - documented version (with comments) :: this is what is edited and saved
- - active version (without comments) :: this is what is used
+ - documented version (with comments) - _this is what is edited and saved_
+ - active version (without comments) - _this is what is used_
  
 I **really** don't want to have two distinct folders, containing two individual files.
 
