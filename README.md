@@ -1,5 +1,25 @@
 # JSON Comments in Ashiva
-Alhough the JSON data-exchange format does not allow for comments, in certain contexts, Ashiva recognises the `//`-prefix as an indication that what follows is a `comment`.
+
+
+Not really entirely happy with any of this...
+
+Basically I want the comments to be _completely gone_ when the JSON files are being used and _completely there again_ when the files are being read.
+
+This means I need:
+
+ - documented version (with comments) :: this is what is edited and saved
+ - active version (without comments) :: this is what is used
+ 
+I **really** don't want to have two distinct folders, containing two individual files.
+
+_____
+_____
+_____
+
+
+
+
+Although the JSON data-exchange format does not allow for comments, in certain contexts, Ashiva recognises the `//`-prefix as an indication that what follows is a `comment`.
 
 `//`-prefixed `object keys`, `array values` and `strings` may be used in standard JSON, without rendering that JSON invalid.
 
@@ -15,6 +35,11 @@ _____
 - `ashivaServersheet`
 - `ashivaPageManifest`
 - `ashivaGlobalManifest`
+
+_____
+
+
+
 
 _____
 
