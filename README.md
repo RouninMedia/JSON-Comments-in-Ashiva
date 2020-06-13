@@ -39,4 +39,5 @@ Any `string` matching the regular expression `^\/{2}\d{2}\s` will be ignored.
 ## Comments in JSON 'Numbers', 'Booleans' and '`null`' in Ashiva
 
 'Number', 'Boolean' and '`null`' values may not be commented.
+
 Instead, they may be preceded by a 'String' value containing a comment.
