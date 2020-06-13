@@ -1,13 +1,9 @@
 # JSON Comments in Ashiva
-Ashiva regards serialised
+Alhough the JSON data-exchange format does not allow for comments, in certain contexts, Ashiva recognises the `//`-prefix as an indication that what follows is a `comment`.
 
- - `object keys`
- - `array values`
- - `strings`
- 
- as comments, **whenever they are prefixed with** `//`.
+`//`-prefixed `object keys`, `array values` and `strings` may be used in standard JSON, without rendering that JSON invalid.
 
-`//`-prefixed `object keys`, `array values` and `strings` may be used in standard JSON, without rendering the JSON invalid.
+Ashiva regards all `//`-prefixed `object keys`, `array values` and `strings` as comments.
 
 _____
 
@@ -53,7 +49,7 @@ Any `string` matching the regular expression `^\/{2}` will be regarded as a comm
 
 'Number', 'Boolean' and '`null`' values may not be commented.
 
-Instead, they may be preceded by a `//`-prefixed '`String`' which is regarded as a comment.
+But they may be preceded by a `//`-prefixed '`String`' which is regarded as a comment.
 
 ______
 
