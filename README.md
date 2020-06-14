@@ -16,6 +16,13 @@ And I **certainly** don't want to have two distinct folders, containing two indi
 
 So one of these versions - most likely the documented version - needs to be a _virtual version_, constructed from meta-data.
 
+The meta-data can be contained, itself, in a comprehensive, self-updating, JSON file,
+
+ - sectioned by filename
+ - containing all comments relevant to a specific JSON file in that section
+ 
+ This all sounds much better... now, how are the comment positions recorded?
+
 _____
 _____
 _____
