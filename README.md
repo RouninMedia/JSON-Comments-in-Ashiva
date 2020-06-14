@@ -14,6 +14,8 @@ I **really** don't want to have two individual files.
 
 And I **certainly** don't want to have two distinct folders, containing two individual files.
 
+So one of these versions - most likely the documented version - needs to be a _virtual version_, constructed from meta-data.
+
 _____
 _____
 _____
